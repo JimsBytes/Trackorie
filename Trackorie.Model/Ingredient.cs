@@ -25,6 +25,8 @@
 
         public int Calories { get; set; }
 
+        public ServingUnit CaloriesUnit { get; set; }
+
         public DateTime? Deleted { get; set; }
 
         public ICollection<FoodItemIngredient> FoodItemIngredients { get; set; } = null!;
