@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trackorie.Model", "Trackorie.Model\Trackorie.Model.csproj", "{3A57BD40-5249-43C9-BDDD-A04FBD1F55AF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trackorie.ORM.EntityFrameworkDemo", "Trackorie.ORM.EntityFrameworkDemo\Trackorie.ORM.EntityFrameworkDemo.csproj", "{A9E0CC75-76C4-41F4-8666-7B0651A0E6D2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trackorie.DataInterface", "Trackorie.DataInterface\Trackorie.DataInterface.csproj", "{56309755-F917-44C9-A2C3-4D5E9C9932FD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trackorie.Api", "Trackorie.Api\Trackorie.Api.csproj", "{7BD80C9C-600B-4210-B181-2E5BF9641FD0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trackorie.ORM.DapperDemo", "Trackorie.ORM.DapperDemo\Trackorie.ORM.DapperDemo.csproj", "{4404A20A-09C9-4E5A-A567-4BEFC2D0312B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trackorie.Benchmark", "Trackorie.Benchmark\Trackorie.Benchmark.csproj", "{E438A00E-2AD4-44E0-87D7-BD7995706C11}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A57BD40-5249-43C9-BDDD-A04FBD1F55AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A57BD40-5249-43C9-BDDD-A04FBD1F55AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A57BD40-5249-43C9-BDDD-A04FBD1F55AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A57BD40-5249-43C9-BDDD-A04FBD1F55AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9E0CC75-76C4-41F4-8666-7B0651A0E6D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9E0CC75-76C4-41F4-8666-7B0651A0E6D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9E0CC75-76C4-41F4-8666-7B0651A0E6D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9E0CC75-76C4-41F4-8666-7B0651A0E6D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56309755-F917-44C9-A2C3-4D5E9C9932FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56309755-F917-44C9-A2C3-4D5E9C9932FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56309755-F917-44C9-A2C3-4D5E9C9932FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56309755-F917-44C9-A2C3-4D5E9C9932FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BD80C9C-600B-4210-B181-2E5BF9641FD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BD80C9C-600B-4210-B181-2E5BF9641FD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BD80C9C-600B-4210-B181-2E5BF9641FD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BD80C9C-600B-4210-B181-2E5BF9641FD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4404A20A-09C9-4E5A-A567-4BEFC2D0312B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4404A20A-09C9-4E5A-A567-4BEFC2D0312B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4404A20A-09C9-4E5A-A567-4BEFC2D0312B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4404A20A-09C9-4E5A-A567-4BEFC2D0312B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E438A00E-2AD4-44E0-87D7-BD7995706C11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E438A00E-2AD4-44E0-87D7-BD7995706C11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E438A00E-2AD4-44E0-87D7-BD7995706C11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E438A00E-2AD4-44E0-87D7-BD7995706C11}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A41AAA1A-6B71-448A-9D91-F2CB7BDA25BE}
+	EndGlobalSection
+EndGlobal

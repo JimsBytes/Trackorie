@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.6" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Trackorie.DataInterface\Trackorie.DataInterface.csproj" />
+    <ProjectReference Include="..\Trackorie.ORM.DapperDemo\Trackorie.ORM.DapperDemo.csproj" />
+    <ProjectReference Include="..\Trackorie.ORM.EntityFrameworkDemo\Trackorie.ORM.EntityFrameworkDemo.csproj" />
+    <ProjectReference Include="..\Trackorie.Model\Trackorie.Model.csproj" />
+  </ItemGroup>
+
+</Project>
